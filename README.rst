@@ -119,6 +119,10 @@ Contributors
 Changelog
 =========
 
+* Version 3.16 dated 2026-03-13
+
+  * /CheckSum is now a Bytes string object instead of a string object (patch by Adrian Devries)
+
 * Version 3.15 dated 2025-12-05
 
   * Update XSD files to Factur-X 1.0.8
