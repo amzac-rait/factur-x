@@ -119,6 +119,14 @@ Contributors
 Changelog
 =========
 
+* Version 4.0 dated 2026-03-18
+
+  * Add method xml_check_schematron(). It adds a dependency in saxonche.
+  * Add named argument check_shematron=True on generate_from_binary(), generate_from_file() and get_xml_from_pdf(). When this new arg is True, it calls the new method xml_check_schematron(). When check_shematron=True, the performance impact is signifiant (it adds about 0.3 seconds on my laptop).
+  * Remove deprecated methods check_facturx_xsd(), get_facturx_flavor(), generate_facturx_from_binary() and generate_facturx_from_file(). These methods have been marked as deprecated for 5 years now (since release 2.0 dated April 4th 2021).
+  * Update scripts facturx-pdfextractxml and facturx-pdfgen: add option --disable-schematron-check
+  * Update script facturx-xmlcheck: add check against schematron after the check against XSD
+
 * Version 3.16 dated 2026-03-13
 
   * /CheckSum is now a Bytes string object instead of a string object (patch by Adrian Devries)
