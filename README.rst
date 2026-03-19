@@ -119,6 +119,10 @@ Contributors
 Changelog
 =========
 
+* Version 4.1 dated 2026-03-19
+
+  * Fix compatibility with python < 3.12
+
 * Version 4.0 dated 2026-03-18
 
   * Add method xml_check_schematron(). It adds a dependency in saxonche.
