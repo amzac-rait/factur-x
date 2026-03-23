@@ -119,6 +119,10 @@ Contributors
 Changelog
 =========
 
+* Version 4.2 dated 2026-03-23
+
+  * Fix resource leak in the loading of the XSD file for XML schema validation (closes bug #68)
+
 * Version 4.1 dated 2026-03-19
 
   * Fix compatibility with python < 3.12
