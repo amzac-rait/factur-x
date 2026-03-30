@@ -29,6 +29,7 @@ Issues = "https://github.com/akretion/factur-x/issues"
 
 [project.scripts]
 facturx-pdfgen = "facturx.scripts.pdfgen:main"
+facturx-pdfgen-qt = "facturx.scripts.pdfgen_qt:main"
 facturx-pdfextractxml = "facturx.scripts.pdfextractxml:main"
 facturx-xmlcheck = "facturx.scripts.xmlcheck:main"
 # I consider the webservice scripts as a proof of concept, not real clean code

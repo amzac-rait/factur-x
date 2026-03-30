@@ -42,6 +42,7 @@ Command line tools
 Several command line tools are provided with this lib:
 
 * **facturx-pdfgen**: generate a Factur-X or Order-X PDF file from a regular PDF file and an XML file
+* **facturx-pdfgen-qt**: Qt interface for facturx-pdfgen
 * **facturx-pdfextractxml**: extract the XML file from a Factur-X or Order-X PDF file
 * **facturx-xmlcheck**: check a Factur-X or Order-X XML file against the official XML Schema Definition
 
